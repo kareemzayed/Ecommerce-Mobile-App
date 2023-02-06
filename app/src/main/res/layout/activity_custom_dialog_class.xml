@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="103dp"
+        android:layout_height="33dp"
+        android:text="choise rate"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="8dp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" />
+
+    <EditText
+        android:id="@+id/txtcustrating"
+        android:layout_width="270dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:ems="10"
+        android:hint="Enter your feedback and rating.."
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#3E80B4"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/ratingbtn"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:background="@android:color/white"
+            android:clickable="true"
+            android:text="Send"
+            android:textColor="#3E80B4"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/cancelbtn"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:background="@android:color/white"
+            android:clickable="true"
+            android:text="Cancel"
+            android:textColor="#3E80B4"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+
+</LinearLayout>

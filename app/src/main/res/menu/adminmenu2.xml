@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/uploadproduct11" android:title="upload product" />
+    <item android:id="@+id/report" android:title="report generated" />
+    <item android:id="@+id/chart" android:title="chart generated" />
+</menu>
